@@ -1,0 +1,41 @@
+.reinbow-six-siege-is-funny-ass-hell {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 200px;
+    animation: sixAnimation 5s ease infinite both;
+}
+
+@keyframes sixAnimation {
+
+
+    0% {
+        background-color: pink;
+        top: 0;
+        right: 0;
+    }
+
+    25% {
+        background-color: chartreuse;
+        right: 180px;
+        top: 0;
+    }
+
+    50% {
+        background-color: blueviolet;
+        top: 180px;
+        right: 180px;
+    }
+
+    75% {
+        background-color: dodgerblue;
+        top: 180px;
+        right: 0;
+    }
+
+    100% {
+        background-color: pink;
+        top: 0;
+        right: 0;
+    }
+}
